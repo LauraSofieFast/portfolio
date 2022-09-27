@@ -1,0 +1,87 @@
+#contact-page {
+    background-color: rgb(58, 104, 100);
+    height: 90vh;
+    border-top: 2px solid goldenrod;
+}
+
+
+.contactp {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 600px;
+    height: 550px;
+    border: 3px solid goldenrod;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    -webkit-appearance: none;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    padding: 5px;
+    border: goldenrod;
+}
+
+input:focus {
+    border:3px solid rgb(58, 104, 100);
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Baskerville-display-pt', 'serif';
+    padding: 5px;
+}
+
+.submitbutton {
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    color:rgb(58, 104, 100);
+    font-size:10px;
+    background-color: rgb(58, 104, 100);
+    box-shadow: 2px 4px rgba(180, 180, 180, 0.5);
+}
+
+.submitbutton input {
+    background-color:rgb(58, 104, 100);
+    color: white;
+    cursor: pointer;
+}
+
+
+.Contact-titel h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+}
+
