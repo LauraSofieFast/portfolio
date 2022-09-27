@@ -1,0 +1,173 @@
+
+#hero-section {
+    height: 150vh;
+    background-image: url("bluegold.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    transform: 'translateY(${ offsetY * 0.5}px)';;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-img img {
+    border-radius: 50%;
+    width: 55%;
+    margin-left: 300px;
+    margin-top: 180px;
+    transform: 'translateY(${ offsetY * 0.8}px)';
+    border: 2px solid goldenrod;
+}
+
+.Title {
+   text-align: left;
+   white-space: pre-line;
+}
+
+.Title h1 {
+    font-size: 80px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.typewrite {
+    margin-top: 200px;
+}
+
+
+
+.c1{
+    display: inline-block;
+  }
+  .c2{
+    display: inline-block;
+  }
+  .c3{
+    display: inline-block;
+  }
+  .c4{
+    display: inline-block;
+  }
+  .c5{
+    display: inline-block;
+  }
+
+  h2{
+    font-size: 3.2rem;
+  }
+  h2 .type{
+      font-size: 2.5rem;
+      overflow: hidden;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 2s steps(25, end) forwards;
+        animation-delay: 14s;
+  }
+  h2 .type2{
+      font-size: 2.5rem; 
+      overflow: hidden;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 2s steps(25, end) forwards;
+      animation-delay: 16s;
+  }
+  h2 .type3{
+      font-size: 2.5rem; 
+      overflow: hidden;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 2s steps(25, end) forwards;
+      animation-delay: 18s;
+  }
+
+  h2 .type4{
+    font-size: 2.5rem; 
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 2s steps(25, end) forwards;
+    animation-delay: 20s;
+}
+
+h2 .type5{
+  font-size: 2.5rem; 
+  overflow: hidden;
+  white-space: nowrap; 
+  width: 0;
+  animation: 
+    typing 1s steps(50, end) forwards;
+  animation-delay: 22s;
+}
+
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+
+  .button-hero {
+    padding: 15px 32px;
+    border: 2px solid goldenrod;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    box-shadow: 4px 6px #0005;
+  }
+
+  .button-hero a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .button-hero span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-hero span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button-hero:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-hero:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+ 
+    
+
+
+
+
+  
+
+  
+
